@@ -1,11 +1,15 @@
-//Once you complete a problem, open up Chrome and check the answer in the console.
+//Once you complete a problem, open up Chrome and check the answer 
+//in the console.
 
 
 var arr = [10,20,30];
-//Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
+//Create a function named 'first' that is given 'arr' as the argument
+// and  returns the first item in the given array.
 
   //Code Here
-
+var first = (arr) => {
+  return arr[0];
+}
 
 //Next problem
 
@@ -13,7 +17,7 @@ var arr = [10,20,30];
 
 var arr = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
-
+var last = (arr) => { return arr[arr.length - 1] };
 
   //Code Here
 
@@ -25,17 +29,25 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
 
   //Code Here
-
+var looper = (arr) => {
+  arr.forEach((e) => alert(e));
+}
 
 //Next problem
 
 
 
 var letters = ['A', 'B', 'C', 'D', 'E'];
-//Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
+//Write a function called reversedLooper that is given letters as 
+//it's only argument and loops through the given array backwards 
+//alerting every item in the array starting at the end.
 
   //Code Here
-
+var reversedLooper = (arr) => {
+  for (var i = arr.length - 1; i >= 0; i--) {
+    alert(arr[i]);
+  }  
+}
 
 //Next Problem
 
